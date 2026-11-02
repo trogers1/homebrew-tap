@@ -1,19 +1,19 @@
 class Sidecar < Formula
   desc "Code review comments alongside your source"
   homepage "https://github.com/trogers1/sidecar-comments"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/trogers1/sidecar-comments/releases/download/v0.2.0/sidecar_darwin_arm64.tar.gz"
-    sha256 "3b30d59e0befe563069f160e5585900526e212a55555feadd1e4e0938437268f"
+    url "https://github.com/trogers1/sidecar-comments/releases/download/v0.2.1/sidecar_darwin_arm64.tar.gz"
+    sha256 "469e89c770d65f2b15a811c1099f1f50fa6afe9087490890669e9ba69ef579d5"
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/trogers1/sidecar-comments/releases/download/v0.2.0/sidecar_linux_amd64.tar.gz"
-    sha256 "231dd8d1e507d4687f044571ed7c3ec77fa05ac324d5f1cda592ee904741dec9"
+    url "https://github.com/trogers1/sidecar-comments/releases/download/v0.2.1/sidecar_linux_amd64.tar.gz"
+    sha256 "4725a2b844089176681d1bd11d81bd5e6d4ce8f2a50bfbd676e118ab216416a8"
   end
 
   def install
